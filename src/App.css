@@ -1,0 +1,112 @@
+nav {
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+  color: #000;
+  
+}
+.navitems {
+  width:100%;
+  height: 9vh;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 0 0 15px grey;
+  /* margin-left: 3%; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navitems h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-left: 70px;
+  margin-top: 1%;
+}
+
+.navitems button {
+  width: 180px;
+  height: 50px;
+  padding: 0px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  border-color:darkgray;
+  background-color:deeppink;
+  font-family: serif;
+  font-size: 20px;
+  margin-right: 4%;
+  margin-top: .5%;
+}
+
+.fetchbtn:hover {
+  background-color:lightslategray;
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  /* margin: 4%; */
+  /* padding: 10px; */
+}
+.name{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color:darkviolet;
+}
+.name:hover {
+  color:darkblue;
+}
+
+.email{
+  font-size: 20px;
+  font-weight: bold;
+}
+p{
+  font-size: 15px;
+}
+.avatar {
+  border-radius: 20%;
+}
+
+.profile_cont {
+  border-radius: 2%;
+  background-color: whitesmoke;
+  margin: 20px;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 8vh;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 0 20px darkslategrey;
+}
+
+.profile_cont:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  box-shadow: 0 0 20px darkviolet;
+}
+
+.footer {
+  display: flex;
+  background-color: whitesmoke;
+  font-size: 20px;
+  margin-top: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+body{
+  background-color:whitesmoke;
+}
